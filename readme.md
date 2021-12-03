@@ -1,0 +1,1 @@
+# Bendis skeleton application
