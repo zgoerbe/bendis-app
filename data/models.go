@@ -16,6 +16,8 @@ var upper db2.Session
 type Models struct {
 	// any models inserted here (and in the New function)
 	// are easily accessible through the entire application
+	Users  User
+	Tokens Token
 }
 
 func New(databasePool *sql.DB) Models {
