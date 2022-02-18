@@ -2,9 +2,9 @@ package main
 
 import (
 	"log"
-	"myapp_pt2/data"
-	"myapp_pt2/handlers"
-	"myapp_pt2/middleware"
+	"myapp/data"
+	"myapp/handlers"
+	"myapp/middleware"
 	"os"
 
 	"github.com/zgoerbe/bendis"
@@ -24,9 +24,9 @@ func initApplication() *application {
 	}
 
 	bend.AppName = "myapp_pt2"
-	
+
 	myMiddleware := &middleware.Middleware{
-		App:    bend,
+		App: bend,
 	}
 
 	//bend.InfoLog.Println("Debug is set to", bend.Debug)
@@ -35,8 +35,8 @@ func initApplication() *application {
 	}
 
 	app := &application{
-		App: bend,
-		Handlers: myHandlers,
+		App:        bend,
+		Handlers:   myHandlers,
 		Middleware: myMiddleware,
 	}
 

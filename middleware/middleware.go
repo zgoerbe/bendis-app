@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"github.com/zgoerbe/bendis"
-	"myapp_pt2/data"
+	"myapp/data"
 )
 
 type Middleware struct {

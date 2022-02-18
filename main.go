@@ -1,9 +1,9 @@
 package main
 
 import (
-	"myapp_pt2/data"
-	"myapp_pt2/handlers"
-	"myapp_pt2/middleware"
+	"myapp/data"
+	"myapp/handlers"
+	"myapp/middleware"
 	"os"
 	"os/signal"
 	"sync"

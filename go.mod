@@ -1,4 +1,4 @@
-module myapp_pt2
+module myapp
 
 go 1.17
 

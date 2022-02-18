@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"github.com/zgoerbe/bendis"
-	"myapp_pt2/data"
+	"myapp/data"
 	"net/http"
 )
 
