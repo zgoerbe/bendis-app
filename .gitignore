@@ -1,2 +1,7 @@
 .idea
 coverage.out
+/config/database.yml
+/db-data/
+/vendor/
+/tmp/
+/bendis

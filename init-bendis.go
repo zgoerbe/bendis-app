@@ -2,9 +2,9 @@ package main
 
 import (
 	"log"
-	"myapp/data"
-	"myapp/handlers"
-	"myapp/middleware"
+	"myapp_pt2/data"
+	"myapp_pt2/handlers"
+	"myapp_pt2/middleware"
 	"os"
 
 	"github.com/zgoerbe/bendis"
@@ -23,7 +23,7 @@ func initApplication() *application {
 		log.Fatal(err)
 	}
 
-	bend.AppName = "myapp"
+	bend.AppName = "myapp_pt2"
 	
 	myMiddleware := &middleware.Middleware{
 		App:    bend,

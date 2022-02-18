@@ -14,14 +14,14 @@ var db *sql.DB
 var upper db2.Session
 
 type Models struct {
-	// any models inserted here (and in the New function)
-	// are easily accessible through the entire application
-	// ***********************************************************
-	// ** uncomment next 3 lines if you used make auth function **
-	// ***********************************************************
-	// RememberTokens RememberToken
-	// Users  User
-	// Tokens Token
+	// *********************************************************
+	// * any models inserted here (and in the New function)    *
+	// * are easily accessible through the entire application  *
+	// * Uncomment below:                                      *
+	// *********************************************************
+	//Users          User
+	//Tokens         Token
+	//RememberTokens RememberToken
 }
 
 func New(databasePool *sql.DB) Models {
@@ -37,12 +37,12 @@ func New(databasePool *sql.DB) Models {
 	}
 
 	return Models{
-	    // ***********************************************************
-	    // ** uncomment next 3 lines if you used make auth function **
-	    // ***********************************************************
-	    // RememberTokens: RememberToken{},
-	    // Users:          User{},
-	    // Tokens:         Token{},
+		// ********************
+		// * Uncomment below: *
+		// ********************
+		//RememberTokens: RememberToken{},
+		//Users:          User{},
+		//Tokens:         Token{},
 	}
 }
 
